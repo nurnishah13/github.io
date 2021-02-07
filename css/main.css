@@ -237,18 +237,24 @@ transition: 0s
 .header-flex-left{
   flex: 53%;
   padding-left: 12vw;
-  padding-top: 12vw;
+  padding-top: 8vw;
 }
 
 .header-flex-right{
   flex: 47%;
-  background-image:url(../img/2.png);
-  height: 115vh;
+  background-image:url(../img/header4.png);
+  height: 100vh;
+  padding-top: 8vw;
+
   width: auto;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
 
+}
+
+button.resume{
+  margin-left: 3vw;
 }
 
 /* .home-mast{
@@ -336,9 +342,8 @@ transition: 0s
   background-image:url(../img/cache-1.png);
   /* height: 100vh; */
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center; 
-  border-radius: 1vw;;
+  border-radius: 1vw;
 }
 /*----------------*/ 
 
@@ -358,11 +363,13 @@ transition: 0s
 
 .lesswaste-right{
   flex: 60%;
-  background-image:url(../img/cache.jpg);
+  background-image:url(../img/lesswaste.png);
   /* height: 100vh; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
+  border-radius: 1vw;
+
 }
 /*----------------*/ 
 
@@ -382,11 +389,13 @@ transition: 0s
 
 .masktranslator-right{
   flex: 60%;
-  background-image:url(../img/cache.jpg);
+  background-image:url(../img/mask.png);
   /* height: 100vh; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
+  border-radius: 1vw;
+
 }
 /*----------------*/ 
 
@@ -406,11 +415,13 @@ transition: 0s
 
 .polywebdes-right{
   flex: 60%;
-  background-image:url(../img/cache.jpg);
+  background-image:url(../img/polydes.png);
   /* height: 100vh; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
+  border-radius: 1vw;
+
 }
 /*----------------*/ 
 
@@ -430,11 +441,13 @@ transition: 0s
 
 .platinum-right{
   flex: 60%;
-  background-image:url(../img/cache.jpg);
+  background-image:url(../img/platinum.png);
   /* height: 100vh; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
+  border-radius: 1vw;
+
 }
 /*----------------*/ 
 
@@ -454,11 +467,13 @@ transition: 0s
 
 .magdes-right{
   flex: 60%;
-  background-image:url(../img/cache.jpg);
+  background-image:url(../img/magazine.png);
   /* height: 100vh; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
+  border-radius: 1vw;
+
 }
 /*----------------*/ 
 /* .cache{
@@ -486,36 +501,77 @@ transition: 0s
 
 .about-mast{
   height: 60vh;
-     
   display: flex;
 }
 .about-left-img{
-  flex: 50%;
+  flex: 100%;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/about3.png);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/about3.png);
 }
-.about-right-img{
-  flex: 50%;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/aboutme.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
+
 
 .about-container{
   display: flex;
-  flex: 80%;
+  flex-direction: row;
 }
 
 .about{
+  flex: 100%;
   padding: 10vw;
 }
+
+.testimonial-container{
+  display: flex;
+  flex-direction: row;
+  flex: 80%;
+  padding-top: 1vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 10vw;
+
+
+}
+.testimonial{
+  padding: 3vw;
+  background-color: #E9F1F4;
+  border-radius: 1vw;
+  text-align: center;
+
+}
+
+.contact-me{
+  display: flex;
+  flex-direction: row;
+  flex: 80%;
+  padding-top: 1vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 10vw;
+}
+
+.footer-contact{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9A77FF;
+  color: #E9F1F4;
+  text-align: center;
+  padding: 3vw;
+}
+
+ion-icon {
+  color: #E9F1F4 ;
+  padding: 2vw;
+
+}
+
 
 /* -------------------------------------- */
 /* -----------------FOOTER--------------- */
 /* -------------------------------------- */
+
 .footer {
   left: 0;
   bottom: 0;
@@ -534,6 +590,7 @@ ion-icon {
 .footer h2{
   padding: 2vw;
 }
+
 /* -------------------------------------- */
 /* ------------responsive codes---------- */
 /* -------------------------------------- */
@@ -711,4 +768,5 @@ ion-icon {
     page-break-after: avoid;
   }
 }
+
 
